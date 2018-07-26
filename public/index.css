@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto',"Noto Sans Japanese", sans-serif !important;
+}
+
+.root {
+  height: 100vh;
+}
+
+nav {
+  background-color: transparent !important;
+}
+
+.password-box .row {
+  margin-bottom: .3rem;
+}
+nav h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  margin: 0;
+  color: rgba(1, 1, 1, .87);
+}
+
+.accounts p {
+  color: rgba(1, 1, 1, .54);
+}
+
+.accounts p span {
+  font-size: .9rem;
+  color: rgba(1, 1, 1, .87);
+}
+
+.password-box h2 {
+  font-size: 1.8rem;
+  color: rgba(1,1,1, .54);
+  padding: 0;
+  margin: 1.2rem 0 0;
+  font-weight: 600;
+}
+
+.password-box .word p {
+  font-size: 1.2rem;
+  color: rgba(1,1,1, .54);
+  padding:0;
+  margin: 1.2rem 0;
+  font-weight: 500;
+}
+
+.password-main {
+  border-radius: 6px;
+}
+
+.password-box .password-select div {
+  border-bottom: 1.8px solid rgba(1,1,1, .38);
+  padding: 1rem 0;
+  font-weight: 600;
+  color: rgba(1,1,1, .54);
+}
+
+.password-box .password-select div:first-child {
+  border-radius: 6px 0 0 0;
+}
+
+.password-box .password-select div.on-click {
+  border-bottom: 1.8px solid #26a69a !important;
+  background: #26a69a !important;
+  color: #fff !important;
+  transition: .9s;
+}
+
+.password-box .password-select div.off:hover {
+  border-bottom:1.8px solid #26a69a;
+  background:#26a69a;
+  color: #fff;
+  transition: 1.8s;
+}
+
+.password-box .password-main .password-select div:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+.password-box .password-main ::placeholder {
+  text-align: center;
+}
+
+.advanced {
+  display: none !important;
+}
+
+.before.advanced {
+  display: initial !important;
+}
+.before.on {
+  display: none !important;
+}
+
+.password-box .password-main .password-button {
+  border-radius: 32px;
+}
+
+.off.deposit, .off.getTransfer {
+  display: none;
+  transition: .6s;
+}
+
+.close,.emergency {
+  display: none;
+}
